@@ -50,7 +50,7 @@
   <link href="{{url('backend/css/nucleo-icons.css')}}" rel="stylesheet" />
   <link href="{{url('backend/css/nucleo-svg.css')}}" rel="stylesheet" />
   <!-- Font Awesome Icons -->
-  <script src="https://kit.fontawesome.com/42d5adcbca.js" crossorigin="anonymous"></script>
+  <script src="{{url('backend/js/')}}"></script>
   <!-- Material Icons -->
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Round" rel="stylesheet">
   <!-- CSS Files -->
@@ -923,11 +923,11 @@
     </div>
   </div>
   <!--   Core JS Files   -->
-  <script src="../assets/js/core/popper.min.js"></script>
-  <script src="../assets/js/core/bootstrap.min.js"></script>
-  <script src="../assets/js/plugins/perfect-scrollbar.min.js"></script>
-  <script src="../assets/js/plugins/smooth-scrollbar.min.js"></script>
-  <script src="../assets/js/plugins/chartjs.min.js"></script>
+  <script src="http://127.0.0.1:8000/assets/js/core/popper.min.js"></script>
+  <script src="http://127.0.0.1:8000/assets/js/core/bootstrap.min.js"></script>
+  <script src="http://127.0.0.1:8000/assets/js/plugins/perfect-scrollbar.min.js"></script>
+  <script src="http://127.0.0.1:8000/assets/js/plugins/smooth-scrollbar.min.js"></script>
+  <script src="http://127.0.0.1:8000/assets/js/plugins/chartjs.min.js"></script>
   <script>
     var ctx = document.getElementById("chart-bars").getContext("2d");
 
